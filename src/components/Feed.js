@@ -1,8 +1,15 @@
 import React from 'react'
+import CreatePost from './CreatePost'
+import Tweet from './Tweet'
 
 function Feed() {
   return (
-    <div>Feed</div>
+    <div className='w-[50%] border border-gray-300'>
+      <div>
+        <CreatePost/>
+        <Tweet/>
+      </div>
+    </div>
   )
 }
 
