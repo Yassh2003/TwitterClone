@@ -8,6 +8,7 @@ function Feed() {
       <div>
         <CreatePost/>
         <Tweet/>
+        <Tweet/>
       </div>
     </div>
   )
